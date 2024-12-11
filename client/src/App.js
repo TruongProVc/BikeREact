@@ -4,6 +4,7 @@ import Footer from './Component/Footer/Footer';
 import Header from './Component/Header/Header';
 import Content from './Component/Content/Content';
 import Slidebar from './Component/Slidebar/Sidebar';
+import AdminDashboard from './Page/Admin/AdminDashboard';
 
 
 //Import plugins
@@ -15,12 +16,13 @@ function App() {
   return (
    
  <div>
-    <Header/>
-    {/* 
-    */}
+    {/* <Header/>
     <Slidebar/>
      <Content/>
-    <Footer/>
+    <Footer/> */}
+
+<AdminDashboard/>
+
  </div>
   );
 }
